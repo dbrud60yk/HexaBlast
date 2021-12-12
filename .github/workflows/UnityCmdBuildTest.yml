@@ -32,6 +32,6 @@ jobs:
 
       # build
       - name: unity build
-        run: ./build.cmd
+        run: .\build.cmd
         shell: cmd
 
