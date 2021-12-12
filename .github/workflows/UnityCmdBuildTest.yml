@@ -32,6 +32,6 @@ jobs:
 
       # build
       - name: unity build
-        run: .\build.bat
+        run: C:\actions-runner\build.bat
         shell: cmd
 
