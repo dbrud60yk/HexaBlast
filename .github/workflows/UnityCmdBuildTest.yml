@@ -32,6 +32,6 @@ jobs:
 
       # build
       - name: unity build
-        run: "C:\Program Files\Unity\Hub\Editor\2019.4.8f1\Editor\Unity.exe" -quit -batchmode -projectPath .\_work\HexaBlast -buildWindows64Player .\BuildSave\build.exe
+        run: "C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Unity.exe" -quit -batchmode -projectPath ./_work/HexaBlast -buildWindows64Player ./BuildSave/build.exe
         shell: cmd
 
